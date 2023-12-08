@@ -1,0 +1,33 @@
+h1{
+  text-align: center;
+}
+.nakami {
+  text-align: center;
+}
+.nakami p{
+  text-align: left;
+  margin-left: 20%;
+  margin-top: auto;
+  margin-right: 20%;
+}
+img{
+  width: 30%;
+  height: 10%;
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+.bg_pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffff;
+  opacity: 0.4;
+  z-index: -1;
+}
+.Polka_v2 {
+  background-image:  radial-gradient(#ffc107 2px, transparent 2px), radial-gradient(#ffc107 2px, #ffffff 2px);
+  background-size: 40px 40px;
+  background-position: 0 0,20px 20px;
+}

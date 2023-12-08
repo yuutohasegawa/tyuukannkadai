@@ -1,0 +1,138 @@
+@charset "utf-8";
+p{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    height: 200px;
+    align-items: stretch;
+    margin-top: 10%;
+}
+.senntaku{
+  transform: rotate(0.03deg);
+    width: 300px;
+   /* height: 100px;*/
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.syasinn {
+    width:300px; 
+    overflow: hidden;
+}
+.syasinn img {
+    transition:0.5s all;
+   }
+   div.syasinn{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+div.syasinn img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    }
+    html {
+        height:100%;
+      }
+      
+     
+      
+      .bg {
+        animation:slide 3s ease-in-out infinite alternate;
+        background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+        bottom:0;
+        left:-50%;
+        opacity:.5;
+        position:fixed;
+        right:-50%;
+        top:0;
+        z-index:-1;
+      }
+      
+      .bg2 {
+        animation-direction:alternate-reverse;
+        animation-duration:4s;
+      }
+      
+      .bg3 {
+        animation-duration:5s;
+      }
+      
+      .content {
+        background-color:rgba(255,255,255,.8);
+        border-radius:.25em;
+        box-shadow:0 0 .25em rgba(0,0,0,.25);
+        box-sizing:border-box;
+        left:50%;
+        padding:10vmin;
+        position:fixed;
+        text-align:center;
+        top:50%;
+        transform:translate(-50%, -50%);
+      }
+      
+      h1 {
+        font-family:monospace;
+      }
+      
+      @keyframes slide {
+        0% {
+          transform:translateX(-25%);
+        }
+        100% {
+          transform:translateX(25%);
+        }
+      }
+      .box .senntaku {
+        transform: rotate(0.03deg);  
+        margin: 2em auto;
+        padding:2em;/*内側余白*/
+        border-radius:30px;/*丸みを調整*/
+        background-color:#ffffff;
+      }
+div .box .senntaku{
+  transform: rotate(0.03deg);  
+    width: 100px;
+  max-width: 100%;
+  height: auto;
+}
+.box{
+margin-top: 15%;
+}
+h1 {
+  padding: 1rem 3rem;
+  color: #fff;
+  border-radius: 100vh;
+  background-image: linear-gradient(to left, #9be15d 0%, #00e3ae 100%);
+  text-align: center;
+}
+a{
+  transform: rotate(0.03deg);
+  text-decoration: none;
+}
+span a {
+  transform: rotate(0.03deg);
+  position: relative;
+  padding: 1rem 2rem calc(1rem + 10px);
+  background: #fff100;
+  font-size: 100%;
+}
+
+span a:before {
+  transform: rotate(0.03deg);  
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  width: 100%;
+  height: 100%;
+  content: '';
+  border: 4px solid #000;
+}
+span a:hover	{
+  transform: rotate(0.03deg);  
+	background: rgb(232, 198, 147);	/*リンクにマウスが乗ったら下線を表示*/
+}
